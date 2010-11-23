@@ -107,7 +107,7 @@
 (defun virtual-tags-find-tags ()
   "入力されたタグの検索"
   (interactive)
-  (virtual-tags-info-smart-call-func virtual-tags-info-find-tag--func))
+  (virtual-tags-info-smart-call-func virtual-tags-info-find-tag-func))
 
 (defun virtual-tags-update-tags ()
   "TAGSファイルの更新"
